@@ -1,0 +1,85 @@
+label{
+	width:150px;
+	text-align:left;
+}
+
+.content{
+	background: white;
+}
+
+#logo{
+	width:50%;
+	margin: 20px;
+}
+
+.submitButton{
+	border: none;
+    box-shadow: 4px 4px 10px grey;
+    width: 120px;
+}
+
+#signupForm{
+	border: 1px solid grey;
+    width: 500px;
+    height:750px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px grey;
+}
+
+label{
+	color:black;
+	font-family:Arial;
+	
+}
+
+form ul
+{
+    list-style-type: none;
+    color:black;
+    font-family:Couirer New;
+    text-align: center;
+    	border: 1px solid grey;
+    width: auto;
+    height:380px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px grey;
+    background-color:#D0D0D0;
+}
+ul li{
+	
+	display: inline-block;
+	
+}
+
+ul li label{
+	color:black;
+    font-family:Couirer New;
+}
+ul li INPUT{
+	border-radius: 10px;
+	color:#0099FF;
+}
+input[type=checkbox] {
+	-webkit-appearance: none;
+	background-color: blue;
+	border: 4px solid blue;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 15px;
+	display: inline-block;
+	position: relative;
+}
+input[type=checkbox]:checked {
+	background-color: #0099FF;
+	border: 4px solid blue;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	padding: 9px;
+	border-radius: 15px;
+	display: inline-block;
+	position: relative;
+}
+@media screen and (max-width: )

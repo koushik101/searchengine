@@ -1,0 +1,35 @@
+{% extends "crawler/layout.html" %}
+
+
+{% block content %}
+{% load staticfiles %}
+
+<div class="jumbotron content" style="text-align: center">
+    <img id="logo" src='{% static "crawler/media/cortexlogiclogo.jpg" %}' style="margin-top: 20px"/>
+    <br/>
+	<form method="post" action="." id="signupForm">
+		<!--{{ form.as_p }}-->
+		{% for field in form %}
+			{% if field.field.widget == "CheckboxSelectMultiple" %}
+				
+				{% for f in field.field.widget %}
+					{{ f }}
+				{% endfor %}
+				
+			{% else %}
+  				<li style="list-style-type: none;">{{ field.label_tag }}{{ field }}</li> 
+  			{% endif %}
+		{% endfor %}
+
+	
+		<input type="submit" style="float:center"class="btn-success btn-lg submitButton" value="Register" />
+		{% csrf_token %}
+		
+		
+	</form>
+	<!--<button for="submit-form" style="float:center"class="btn-success btn-lg submitButton" value="Register" >Register</button>->
+	
+</div>
+
+
+{% endblock %}
