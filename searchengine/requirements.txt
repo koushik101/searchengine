@@ -10,7 +10,7 @@ djangotoolbox==1.8.0
 elasticsearch==5.4.0
 idna==2.5
 mongoengine==0.13.0
-nltk==3.2.4
+nltk==3.4.5
 pymongo==3.1.1
 requests==2.18.1
 six==1.10.0
